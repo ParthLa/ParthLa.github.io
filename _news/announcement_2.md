@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2022-11-14 16:11:00-0400
+date: 2019-12-04 09:00:00+0530
 inline: true
+related_posts: false
 ---
 
-Paper titled <b> A new hope for network model generalization</b> presented at ACM HotNets’22.
+Started my first Internship at Ayudevices (now Ayusynk) as a Machine Learning Engineer
+

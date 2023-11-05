@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-09-01 16:11:00-0400
+date: 2020-04-10 09:00:00+0530
 inline: true
+related_posts: false
 ---
 
-Graduated with MSc. in EEIT from ETH Zurich.
+Started my second Internship with professors from Indiana University.

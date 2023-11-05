@@ -1,11 +1,10 @@
-"HotNets":
-  url: https://conferences.sigcomm.org/hotnets/2022/index.html
+"AAAI":
+  url: https://aaai.org/conference/aaai/aaai-21/
+  color: "#00369f"
+
+"EMNLP2022":
+  url: https://2022.emnlp.org/
   color: "#d87c5a"
 
-"IJMNDI":
-  url: https://www.inderscienceonline.com/doi/abs/10.1504/IJMNDI.2020.112622
-  color: "#d87c5a"
-
-"RG":
-  url: https://www.researchgate.net/
-  color: "#d87c5a"
+"WACV2023":
+  url: https://wacv2023.thecvf.com/home

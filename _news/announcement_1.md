@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-09-15 16:11:00-0400
+date: 2018-07-28 09:00:00+0530
 inline: true
+related_posts: false
 ---
 
-Joined the Advanced Network Architectures Lab at UPC Barcelona as a Researcher.
+Started my Bachelor's in Computer Science at Indian Institute of Technology, Bombay
