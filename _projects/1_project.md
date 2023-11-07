@@ -1,18 +1,16 @@
 ---
 layout: page
-title: Network Traffic Transformer
-description: Transformer architecture to learn network dynamics.
-img: assets/img/architecture_ntt.webp
+title: Doc2Video
+description: Converting Instructional Document to an Explanatory Video tailored to user expertise
+# img: assets/img/architecture_ntt.webp
 importance: 1
 category: Research
 ---
 
-<p align="justify"> Learning underlying network dynamics from packet-level data has been deemed an extremely difficult task, to the point that it is practically not attempted. While research has shown that machine learning (ML) models can be used to learn behaviour and improve on some specific tasks in the networking domain, these models do not generalize to any other tasks. However, a new ML model called the ,<i> Transformer </i>  has shown massive generalization abilities in several fields, where the model is pre-trained on large datasets, in a task agnostic fashion and fine-tuned on smaller datasets for task specific applications, and has become the state-of-the-art architecture for machine learning generalization. </p>
+<p align="justify"> Procedural texts are a special type of documents that contain complex textual descriptions for carrying out a sequence of instructions. Due to the lack of visual cues, it often becomes difficult to consume the textual information effectively. In this paper, we focus on recipes - a particular type of procedural document and introduce a novel deep learning driven system - Recipe2Video that automatically converts a recipe document into a multimodal illustrative video. Our method employs novel retrieval and re-ranking methods to select the best set of images and videos that can provide the desired illustration. We formulate a Viterbi based optimization algorithm to stitch together a coherent video that combines the visual cues, text and voice-over to present an enhanced mode of consumption. We design automated metrics and compare performance across several baselines on two recipe datasets (RecipeQA, Tasty Videos). Our results on downstream tasks and human studies indicate that Recipe2Video captures the semantic and sequential information of the input in the generated video.
+ </p>
 
-<p align="justify"> This project presents a new Transformer architecture adapted for the networking domain, the Network Traffic Transformer (NTT), which is designed to learn network dynamics from packet traces. We pre-train our NTT to learn fundamental network dynamics and then, leverage this learnt behaviour to fine-tune to specific network applications in a quick and efficient manner. By learning such dynamics in the network, the NTT can then be used to make more network-aware decisions across applications, make improvements to the same and make the networks of tomorrow, more efficient and reliable. </p>
-
-Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/Network-Traffic-Transformer"> Code </a>
-
+The research areas explored through this RnD work include Computer Vision and Document Intelligence.
 
 
 

@@ -1,27 +1,14 @@
 ---
 layout: page
-title: Automated Certificate Management Environment 
-description: Self-contained functional ACME client in Python.
-img:
-importance: 3
-category: Misc.
+title: ATM Maintenance
+description: Securing ATM Service by predicting its failures using Fundamental Machine Learning 
+# img: assets/img/model.webp
+importance: 4
+category: Industry Based
 ---
 
-<p align="justify"> This was a course project for the course Network Security at ETH Zurich, in Autumn 2021, where we had to implement a functional ACME client. The <a href="https://tools.ietf.org/html/rfc8555"> Automatic Certificate Management Environment (ACME) protocol </a> aims to facilitate the automation of certificate issuance by creating a standardized and machine-friendly protocol for certificate management. </p>
+<p align="justify"> The current scenario in the banking sector is showing a rapid decline in the number of bank branches with simultaneous increase in the number of ATM bases setup by each bank. However, inefficient maintenance of ATM bases by respective banks lead to longer downtimes thus causing customers to prefer a new bank. To reduce the loss of customers, banks should opt for predictive maintenance of their ATMs. In today’s world it is no longer enough to respond to outages when and after they occur, since this increases the down time of the ATMs and prevent customers from receiving services when needed. Predictive maintenance will enable proactively deciding when a maintenance visit is needed thus preventing unexpected ATM failures.  </p>
 
-<p align="justify">The task was to write an application that implements ACMEv2. However, to make the application self-contained and in order to facilitate testing, the application needed to have more functionality than a bare ACME client. The concrete requirements for the application were: </p>
+<p align="justify"> We planned to combine data on ATM logs, service history and environmental factors to form a model for predicting ATM outages. We extracted features from the log data to understand which thresholds and frequencies were reached for an outage to occur. The service data helped us identify certain error combinations that resulted in outages or failure of the ATMs. After the feature selection, we ran an analytical model to predict outages and determine a pre-defined time interval right before the occurrence of a failure.</p>
 
-The submitted application consisted of the following components:
-- *ACME client:* An ACME client which could interact with a standard-conforming ACME server.
-- *DNS server:* A DNS server which resolved the DNS queries of the ACME server.
-- *Challenge HTTP server:* An HTTP server to respond to the `http-01` queries of the ACME server.
-- *Certificate HTTPS server:* An HTTPS server which used the certificate obtained by the ACME client.
-- *Shutdown HTTP server:*  An HTTP server to receive a shutdown signal.
-
-The requirements for the application were to be able to 
-- use ACME to request and obtain certificates using the `dns-01` and `http-01` challenge (with fresh keys in every run),
-- request and obtain certificates which contain aliases,
-- request and obtain certificates with wildcard domain names, and
-- revoke certificates after they have been issued by the ACME server.
-
-Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/ACME-Client"> Code </a>
+<p align="justify"> The project implementation and documentation can be found <a href="https://github.com/ParthLa/ATM-Maintenance"> here </a>. </p>

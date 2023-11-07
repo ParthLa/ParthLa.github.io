@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my second Internship with professors from Indiana University.
+Started my first research based Internship with professors from Indiana University

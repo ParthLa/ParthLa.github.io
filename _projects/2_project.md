@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Multi-Label News Classification
-description: Text transformer for hierarchical label classification.
-img: assets/img/model.webp
+title: Semi Supervised Data Programming in Python
+description: Aggregating various data programming approaches while incorporating user defined heuristics 
+# img: assets/img/model.webp
 importance: 2
 category: Research
 ---
 
-<p align="justify"> In this project, we present a model for a downstream news classification task on a multicategory news dataset. We develop the model using a Transformer based neural network architecture, which we use to classify the news items into its category labelled in the dataset. In the process, we discovered that classifcation of news across categories which overlap in context (e.g. entertainment and comedy) is extremely hard, even with the state-of-the-art word embeddings from Transformers.  </p>
+<p align="justify"> We present SPEAR, an open-source python library for data programming with semi supervision. The package implements several recent data programming approaches including facility to programmatically label and build training data. SPEAR facilitates weak supervision in the form of heuristics (or rules) and association of noisy labels to the training dataset. These noisy labels are aggregated to assign labels to the unlabeled data for downstream tasks. We have implemented several label aggregation approaches that aggregate the noisy labels and then train using the noisily labeled set in a cascaded manner. Our implementation also includes other approaches that jointly aggregate and train the model for text classification tasks. Thus, in our python package, we integrate several cascade and joint data-programming approaches while also providing the facility of data programming by letting the user define labeling functions or rules. We also present some real-world use cases of SPEAR. </p>
 
-<p align="justify"> We propose a new statistical algorithm, which helps learn the degree of overlap between similar news categories in the dataset using intermediate representations from our model. Finally, we fine-tune our dataset based on our algorithm, and re-train our model on it, showing significant improvement in performance over the the training carried out on the original dataset. </p>
-
-Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/Attentive-neural-networks-for-news-classification"> Code </a>
+<p align="justify"> The project implementation can be found here <a href="https://github.com/ParthLa/Data_Pgm_Subset_Slc"> here </a>. Further, extensive documentation can be found <a href="https://spear-decile.readthedocs.io/"> here </a>. Video tutorials demonstrating the usage of our package are also <a href="https://youtube.com/playlist?list=PLW8agt_HvkVnOJoJAqBpaerFb-z-ZlqlP"> available </a>. </p>

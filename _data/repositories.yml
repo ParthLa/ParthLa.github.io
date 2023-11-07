@@ -3,8 +3,10 @@ github_users:
 
 github_repos:
   - decile-team/spear
-  - ParthLa/Restaurant-Management-System
-  - ParthLa/Developing-Adversially-Robust-Attacks
-  - ParthLa/ATM-Maintenance
   - ParthLa/Training-Notaktoe-using-Reinforcement-Learning
-  - ParthLa/low-rad-tomography
+  - ParthLa/ATM-Maintenance
+# - ChuhuaW/notaktoe
+  - dchandak99/Restaurant-Management
+  - saum-g/low-rad-tomography
+  - ParthLa/Developing-Adversially-Robust-Attacks
+  

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from IIT Bombay with BTech and Honors in Computer Science and Minors in Machine Intelligence and Data Science.
+Graduated from IIT Bombay with BTech and Honors in Computer Science and Minors in Machine Intelligence and Data Science

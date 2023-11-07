@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Morgan Stanley, Fixed Income Division as a Quantitative Research Strategist.
+Joined Morgan Stanley, Fixed Income Division as a Quantitative Research Strategist

@@ -1,16 +1,12 @@
 ---
 layout: page
-title: FRR - P4 Integrated Super - Node
-description: Linux control planes with programmble P4 dataplanes. 
-img: assets/img/supernode.webp
+title: Playing Notakto with Reinforcement Learning
+description: How to train AlphaGo Zero using Reinforcement Learning to win Notakto?
+# img: assets/img/model.webp
 importance: 3
 category: Research
 ---
 
-<p align="justify"> We present a new integration system for layer-3 routers in programmable networks, which allows for the creation of a new forwarding node i.e the Super-Node. These nodes retain the traditional routing control plane from layer-3 routers. However, we replace the static data plane of the original routers by a new, programmable data plane. We create networks using these new forwarding nodes,
-replacing erstwhile layer-3 routers. These new nodes allow for the creation of smarter data planes and customized control planes to implement traditional routing algorithms. </p>
+<p align="justify"> Reinforcement learning has achieved great success in learning strategies for games with minimal supervision. Here we consider a specific simple combinatorial game called notakto, in which players cover squares on a tic-tac-toe board until one of them loses by finishing a whole row, column, or diagonal. We introduce optimal strategies for this game played on small boards, but larger boards have proven difficult to analyze mathematically. We set out to use reinforcement learning to help give insight into optimal strategies for larger boards. Surprisingly, we found that, despite the simplicity of the game, AlphaGo Zero struggled to learn an optimal strategy, even though we know that they exist. We developed two ways to accelerate AlphaGo Zero’s learning on this problem: one is a targeted sampling strategy that biases towards states that are likely to appear in competent play, and the other is to set the threshold for updating a model based on statistics in the training data. Both techniques make AlphaGo Zero converge faster on notakto, but they are specific to this game and still do not seem to find a near-optimal strategy. We conjecture that this difficulty may show some fundamental limitations of reinforcement learning on combinatorial games that need to be further investigated. </p>
 
-<p align="justify">  We then use our new forwarding nodes, combining route calculations from the control plane and decision aware forwarding using our programmable data plane, in order to create better network wide routing and traffic management. All in all, we now benefit from the best of each world, as we co-design the control and data planes. </p>
-
-Implementation of entire project can be found here: <a href="https://github.com/Siddhant-Ray/FRR-P4-Super-Node-Prototype"> Code </a>
-
+<p align="justify"> The project implementation can be found <a href="https://github.com/ParthLa/Training-Notaktoe-using-Reinforcement-Learning"> here </a>. </p>

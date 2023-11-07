@@ -1,13 +1,13 @@
-<!-- ---
+---
 layout: page
 title: Projects
 permalink: /projects/
 description: Some of the projects I have worked on.
 nav: true
 nav_order: 2
-display_categories: [Research, Misc.]
+display_categories: [Research, Industry Based, Implementation]
 horizontal: false
---- -->
+---
 
 <!-- pages/projects.md -->
 <div class="projects">
