@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my major Internship with Adobe Research, Bangalore (though virtually)
+Got going with my major Internship with Adobe Research, Bangalore (though virtually)

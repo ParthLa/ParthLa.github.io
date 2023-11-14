@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my Internship with Bank of Baroda, India under a professor from Statistics Department
+Commenced my Internship with Bank of Baroda, India under Prof. Siuli Mukhopadhyay from Statistics Department, IIT BOMBAY

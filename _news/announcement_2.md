@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Started my first Internship at Ayudevices (now Ayusynk) as a Machine Learning Engineer
+Kicked off my first Internship at Ayudevices (now Ayusynk) as a Machine Learning Engineer
 

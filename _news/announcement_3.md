@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my first research based Internship with professors from Indiana University
+Began my first research based Internship with Prof. David Crandall and Prof. Saul Blanco from Indiana University
